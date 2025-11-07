@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         כיווץ הסרגל כלים והסל קניות של משנת יוסף
 // @namespace    http://tampermonkey.net/
-// @version      v1
+// @version      1.0
 // @author       ShlomoH
 // @description  הוספת כפתור כיווץ לסרגל כלים וסל הקניות באתר משנת יוסף
 // @match        https://mishnatyosef.org/*
 // @icon         https://mishnatyosef.org/assets/logo-lg-a1d09199.svg
+// @updateURL    https://github.com/ShlomoHeller/Collapse-toolbar-in-Mishnat-Yosef/raw/refs/heads/main/Collapse%20toolbar.user.js
+// @downloadURL  https://github.com/ShlomoHeller/Collapse-toolbar-in-Mishnat-Yosef/raw/refs/heads/main/Collapse%20toolbar.user.js
 // @grant        GM_addStyle
 // ==/UserScript==
 
@@ -82,7 +84,7 @@
     const el = qs('#cart.cart-collapsed .border-t');
     if (!el) return;
 
-    obs.disconnect(); 
+    obs.disconnect();
 
     Object.assign(el.style, {
       position: 'absolute',
@@ -90,8 +92,8 @@
       left: '0',
       width: '100%',
       background: 'white',
-      zIndex: 10, 
-      pointerEvents: 'none', 
+      zIndex: 10,
+      pointerEvents: 'none',
       borderTop: '1px solid #ccc',
       padding: '0',
       boxSizing: 'border-box'
