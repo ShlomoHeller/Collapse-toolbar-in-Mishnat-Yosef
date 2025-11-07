@@ -2,7 +2,7 @@
 // @name         כיווץ הסרגל כלים והסל קניות של משנת יוסף
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @author       ShlomoH
+// @author       Shlomo Heller
 // @description  הוספת כפתור כיווץ לסרגל כלים וסל הקניות באתר משנת יוסף
 // @match        https://mishnatyosef.org/*
 // @icon         https://mishnatyosef.org/assets/logo-lg-a1d09199.svg
