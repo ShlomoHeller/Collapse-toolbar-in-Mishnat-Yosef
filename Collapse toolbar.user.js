@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         כיווץ הסרגל כלים והסל קניות של משנת יוסף
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @author       ShlomoH
 // @description  הוספת כפתור כיווץ לסרגל כלים וסל הקניות באתר משנת יוסף
 // @match        https://mishnatyosef.org/*
